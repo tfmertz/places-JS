@@ -1,0 +1,8 @@
+img {
+  max-width: 450px;
+}
+
+.trip {
+  display: none;
+  border-top: solid 1px lightgrey;
+}
