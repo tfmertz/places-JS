@@ -1,8 +1,27 @@
 img {
-  max-width: 450px;
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+  padding: 5px;
 }
 
 .trip {
   display: none;
   border-top: solid 1px lightgrey;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
+.clickable {
+  color: #33cfff;
+  cursor: pointer;
+  font-size: 1.5em;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.clickable:hover {
+  text-decoration: underline;
 }
